@@ -15,6 +15,7 @@ The Khatabook Project is a simple web application for creating, reading, editing
 
 ## Project Structure
 
+
 khatabook/
 ├── files/ # Directory where hisaab files are stored
 ├── public/ # Public directory for static assets (CSS, JS)
@@ -54,6 +55,7 @@ GET /edit/:fileName: Page to edit an existing hisaab.
 POST /update/:fileName: Endpoint to handle form submission for updating an existing hisaab.
 GET /hisaab/:fileName: Page to view a specific hisaab.
 GET /delete/:fileName: Endpoint to delete a specific hisaab.
+
 File Naming and Content
 Files are named based on the current date (DD-MM-YYYY.txt). If a file with the same name already exists, a counter is added to the file name (e.g., DD-MM-YYYY(1).txt, DD-MM-YYYY(2).txt).
 Each file's content starts with the title in an emphasized format, followed by the hisaab content.
